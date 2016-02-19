@@ -38,12 +38,12 @@ $(document).ready(function() {
 
 	$('.back_home a').bind('mouseover', function() {
 		$(this).find('p').css('color','#ea8010');
-		$(this).find('img').attr('src','images/home/back_hover.png')
+		$(this).find('img').attr('src','images/home/back_hover.png');
 	});
 
 	$('.back_home a').bind('mouseout', function() {
 		$(this).find('p').css('color','#000');
-		$(this).find('img').attr('src','images/home/back.png')
+		$(this).find('img').attr('src','images/home/back.png');
 	});
 
 
@@ -69,8 +69,8 @@ function waterfall(){
 				position: 'absolute',
 				top: minH+'px',
 				left:minHindex*w+'px'
-			})
+			});
 			hArr[minHindex]+=$boxs.eq(index).outerHeight();
 		}
-	})
+	});
 }

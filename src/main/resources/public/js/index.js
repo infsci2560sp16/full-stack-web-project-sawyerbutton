@@ -24,14 +24,14 @@ $(document).ready(function() {
 			color: '#ea8010'
 		});
 		$('.knowme img').attr('src','images/index/go_hover.png');
-	})
+	});
 
 	$('.knowme a').bind('mouseout',function(){
 		$('.knowme p').css({
 			color: '#fff'
 		});
 		$('.knowme img').attr('src','images/index/go.png');
-	})
+	});
 
 	$('.control_left').bind('mouseover', function(event) {
 		$('.control_left img').attr('src','images/index/control_left_none.png');
@@ -64,7 +64,7 @@ $(document).ready(function() {
 			$('.bg img').attr({
 			 	'src':src,
 			 	'alt':num
-			 })
+			 });
 
 			$('.bg').css({
 				opacity: 0
@@ -90,7 +90,7 @@ $(document).ready(function() {
 			$('.bg img').attr({
 			 	'src':src,
 			 	'alt':num
-			 })
+			 });
 
 			$('.bg').css({
 				opacity: 0

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var path='images/home/'
+	var path='images/home/';
 	$('.info1').animate({
 		top: 20,
 		opacity: 1},
@@ -60,12 +60,12 @@ $(document).ready(function() {
 
 	$('.back_index a').bind('mouseover', function() {
 		$(this).find('p').css('color','#ea8010');
-		$(this).find('img').attr('src',path+'back_hover.png')
+		$(this).find('img').attr('src',path+'back_hover.png');
 	});
 
 	$('.back_index a').bind('mouseout', function() {
 		$(this).find('p').css('color','#000');
-		$(this).find('img').attr('src',path+'back.png')
+		$(this).find('img').attr('src',path+'back.png');
 	});
 
 

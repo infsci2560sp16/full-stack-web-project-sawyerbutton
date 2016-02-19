@@ -4,12 +4,12 @@ $(document).ready(function() {
 
 	$('.back_home a').bind('mouseover', function() {
 		$(this).find('p').css('color','#ea8010');
-		$(this).find('img').attr('src','images/home/back_hover.png')
+		$(this).find('img').attr('src','images/home/back_hover.png');
 	});
 
 	$('.back_home a').bind('mouseout', function() {
 		$(this).find('p').css('color','#000');
-		$(this).find('img').attr('src','images/home/back.png')
+		$(this).find('img').attr('src','images/home/back.png');
 	});
 
 	$('#talk_btn').bind('mouseover', function() {
@@ -52,7 +52,7 @@ function talkshow(){
 		$content_new.eq(i).css({
 			top: top_new
 		});
-	};
+	}
 }
 
 function movetalk(content){
@@ -62,7 +62,7 @@ function movetalk(content){
 		$content_new.eq(i).animate({
 			top: "+="+num},
 			500);
-	};
+	}
 
 	content.animate({
 		opacity: 1},

@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 	$bars.each(function(index, el) {
 		$(this).bind('click', function(event) {
-			scroll= w_height*index
+			scroll= w_height*index;
 			$('body,html').animate({
 				scrollTop:scroll},
 				500);
@@ -53,7 +53,7 @@ $(document).ready(function() {
 			right: 0},
 			500);
 		event.stopPropagation();
-	})
+	});
 
 	$(document).bind('click',function(event) {
 		$('.siderbar').animate({
@@ -142,7 +142,7 @@ $(document).ready(function() {
 
 	$('.section2_left').bind('click', function(event) {
 		var num = $('.section2_img').find('img').attr('alt');
-		if(num==0){
+		if(num===0){
 			num=3;
 		}else{
 			num= parseInt(num)-1;
