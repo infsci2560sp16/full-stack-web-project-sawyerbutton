@@ -13,10 +13,7 @@
   <h1>email informaiton</h1>
     <ul>
     <#list results as x>
-    <#if x.user_email=="jiz124@pitt.edu">
-      <li style="color: red"> ${x} </li>
-      <#else><li> ${x} </li>
-      </#if>
+      <li> ${x} </li>
     </#list>
     </ul>
 
