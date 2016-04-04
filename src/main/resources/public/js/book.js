@@ -10,7 +10,7 @@ $(document).ready(function() {
 	  },
 	  success: function(data, textStatus, xhr) {
 	  	var result1=data;
-	  		var ta = $('.content').find('table');
+	  		var ta = $('#content').find('table');
 	   		var tr = $('<tr></tr>').appendTo(ta);
 	   		$('<td></td>').text(result1.Productname).appendTo(tr);
 	  		$('<td></td>').text(result1.January).appendTo(tr);
