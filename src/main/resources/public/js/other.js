@@ -18,7 +18,7 @@ $(document).ready(function() {
 	   		$('<td></td>').text(firstname).appendTo(tr);
 	   		$('<td></td>').text(ssn).appendTo(tr);
 	   		$('<td></td>').text(gender).appendTo(tr);
-	   })
+	   });
 	  },
 	  error: function(xhr, textStatus, errorThrown) {
 	    alert("error");
