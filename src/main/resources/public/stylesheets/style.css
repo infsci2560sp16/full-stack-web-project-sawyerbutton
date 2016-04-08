@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow: hidden;
+}
+
+/*index.html*/
+.home_mainbody,.mainbody,.bg,.shadow,.bg img{
+	width: 1920px;
+	min-height: 1000px;
+}
+
+.mainbody{
+	position: relative;
+	background-color: black;
+}
+
+.shadow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 2;
+}
+
+.content{
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 200px;
+	color: #fff;
+	position: relative;
+}
+
+.content .left_tit{
+	position: absolute;
+	left: -100px;
+	top: 100px;
+	opacity: 0;
+}
+
+.content .right_tit{
+	position: absolute;
+	left: 800px;
+	top: 150px;
+	opacity: 0;
+}
+
+.head_img{
+	width: 50px;
+	height: 50px;
+	border: 5px solid;
+	border-color: rgba(255,255,255,0.6);
+	border-radius: 50px;
+	overflow: hidden;
+	position: absolute;
+	left: 450px;
+	top: 20px;
+	opacity:0;
+}
+
+.knowme{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	left: 450px;
+	bottom: 0;
+	opacity:0;
+}
+
+.knowme p{
+	float: left;
+	line-height: 30px;
+	padding-right: 10px;
+	font-weight: bold;
+	color: #fff;
+	font-family: Helvetica;
+}
+
+.control{
+	position: absolute;
+	right: -100px;
+	bottom: -100px;
+	width: 80px;
+	height: 30px;
+}
+
+.control_left, .control_right{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+/*home.html*/
+.home_mainbody{
+	background-color: rgba(0,0,0,0.1);
+}
+.home_content{
+	width: 1000px;
+	margin: 0 auto;
+	height: 500px;
+	padding-top: 100px;
+	position: relative;
+}
+
+.home_title{
+	position: absolute;
+	left: 300px;
+}
+
+.info{
+	position: absolute;
+	width: 600px;
+	top: 250px;
+	height: 500px;
+	left: 150px;
+}
+
+.info1, .info2, .info3{
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	opacity: 0;
+}
+
+.info1{
+	top: -200px;
+	left: 20px;
+}
+
+.info2{
+	top:-200px;
+	left:250px;
+}
+
+.info3{
+	top: -200px;
+	left: 480px;
+}
+
+.info_content1,.info_content2,.info_content3{
+	margin-top: 20px;
+	width: 200px;
+	height:0;
+	overflow: hidden;
+}
+
+.info_title{
+	width: 200px;
+	border-bottom: 1px solid #ccc;
+}
+
+.info_title p{
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+.info_sub{
+	padding: 5px 0;
+	width: 200px;
+}
+
+.info_sub p {
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.info_word{
+	width: 200px;
+	border-top: 1px solid #ccc;
+}
+
+.info_word p{
+	font-family: Lucida;
+}
+
+.back_index{
+	position: absolute;
+	bottom: 0;
+	left: 280px;
+	width: 130px;
+	height: 30px;
+}
+
+.back_index p {
+	float: right;
+	line-height: 30px;
+	color: #000;
+	font-weight: bold;
+}
+
+

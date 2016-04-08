@@ -12,7 +12,7 @@ $(document).ready(function() {
 	   		var firstname = $(this).children('January').text();
 	   		var ssn = $(this).children('Febuary').text();
 	   		var gender = $(this).children('March').text();
-	   		var ta = $('.content').find('table');
+	   		var ta = $('#content').find('table');
 	   		var tr = $('<tr></tr>').appendTo(ta);
 	   		$('<td></td>').text(lastname).appendTo(tr);
 	   		$('<td></td>').text(firstname).appendTo(tr);
